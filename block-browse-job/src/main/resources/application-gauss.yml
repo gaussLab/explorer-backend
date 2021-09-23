@@ -1,0 +1,24 @@
+server:
+  port: 11000
+
+spring:
+  application:
+    name: block-browse-gauss-job
+  data:
+    mongodb:
+      uri: mongodb://192.168.2.125:27017
+#      database: browse_gauss
+#      uri: mongodb://root:Wuyuan_data@192.168.2.23:27017
+      database: browse_gauss
+#chain:
+#  name: gauss
+#  url: http://192.168.2.126:4317
+#  prefix: gauss
+#bech32:
+#  prefix: gaussvalcons
+#icon:
+#  url: https://gausscan-prod.app.gausslab.de/img/GAUSS.png
+#coin:
+#  name: ugauss
+#  startNum: 1
+#  value: http://walletapi.gaussdex.io/gauss-dex-wallet-transaction/outside/txCouple/queryLastDealAmount

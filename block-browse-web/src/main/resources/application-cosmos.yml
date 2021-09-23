@@ -1,0 +1,24 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: block-browse-cosmos-web
+  data:
+    mongodb:
+      uri: mongodb://192.168.2.125:27017/browse
+ws:
+  port: 12345
+chain:
+  name: cosmos
+  url: http://47.241.234.160:1317
+  prefix: cosmos
+bech32:
+  prefix: cosmosvalcons
+coin:
+  name: uatom
+  value: http://walletapi.gaussdex.io/gauss-dex-wallet-transaction/outside/txCouple/queryLastDealAmount
+http:
+  gauss_url: http://192.168.2.31:8000
+  usdg_url: http://192.168.2.31:7000
+  head: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiLlkI7lj7DnrqHnkIYiLCJjbGllbnQiOiJiYWNrZW5kLW1hbmFnZXIiLCJleHAiOjE2NTIzMzU1MDEsImlhdCI6MTYyMDc5OTUwMX0.g7DDEoOVYFYIqIWXXsJwu3hggQ75zS6cEXcaL0QZZCk

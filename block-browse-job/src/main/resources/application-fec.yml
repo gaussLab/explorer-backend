@@ -1,0 +1,22 @@
+server:
+  port: 11000
+
+spring:
+  application:
+    name: block-browse-fec-job
+  data:
+    mongodb:
+      uri: mongodb://192.168.1.70:27017
+      database: browse_fec
+chain:
+  name: fec
+  url: http://148.66.62.98:5317
+  prefix: gauss
+bech32:
+  prefix: fecvalcons
+icon:
+  url: https://img-blog.csdnimg.cn/20210622112842641.png
+coin:
+  name: ufec
+  startNum: 1
+  value: http://walletapi.gaussdex.io/gauss-dex-wallet-transaction/outside/txCouple/queryLastDealAmount

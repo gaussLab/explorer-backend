@@ -1,0 +1,22 @@
+server:
+  port: 11000
+
+spring:
+  application:
+    name: block-browse-igpc-job
+  data:
+    mongodb:
+      uri: mongodb://192.168.1.70:27017
+      database: browse_igpc_dev
+#chain:
+#  name: igpc
+#  url: http://148.66.62.98:4317
+#  prefix: gauss
+#bech32:
+#  prefix: igpcvalcons
+#icon:
+#  url: https://img-blog.csdnimg.cn/2021062211275266.png
+#coin:
+#  name: uigpc
+#  startNum: 1
+#  value: http://walletapi.gaussdex.io/gauss-dex-wallet-transaction/outside/txCouple/queryLastDealAmount

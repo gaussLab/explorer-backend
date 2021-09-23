@@ -1,0 +1,22 @@
+server:
+  port: 11000
+
+spring:
+  application:
+    name: block-browse-usdg-job
+  data:
+    mongodb:
+      uri: mongodb://192.168.1.70:27017
+      database: browse_usdg
+#chain:
+#  name: usdg
+#  url: http://192.168.2.126:5317
+#  prefix: usdg
+#bech32:
+#  prefix: usdgvalcons
+#icon:
+#  url: https://img-blog.csdnimg.cn/20210621150651476.png
+#coin:
+#  name: uusdg
+#  startNum: 1
+#  value: http://walletapi.gaussdex.io/gauss-dex-wallet-transaction/outside/txCouple/queryLastDealAmount

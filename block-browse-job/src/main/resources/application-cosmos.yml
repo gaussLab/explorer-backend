@@ -1,0 +1,22 @@
+server:
+  port: 11000
+
+spring:
+  application:
+    name: block-browse-cosmos-job
+  data:
+    mongodb:
+      uri: mongodb://192.168.1.70:27017/browse_cosmos
+
+chain:
+  name: cosmos
+  url: http://47.241.234.160:1317
+  prefix: cosmos
+bech32:
+  prefix: cosmosvalcons
+icon:
+  url: https://gausscan-prod.app.gausslab.de/img/GAUSS.png
+coin:
+  name: uatom
+  startNum: 630000
+  value: http://walletapi.gaussdex.io/gauss-dex-wallet-transaction/outside/txCouple/queryLastDealAmount
